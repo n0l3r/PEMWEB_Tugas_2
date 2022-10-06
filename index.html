@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Product</title>
+
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+
+        .search-box form {
+            width: 500px;
+            height: 50px;
+            background-color: #fff;
+            border-radius: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-box input {
+            width: 400px;
+            height: 40px;
+            border: none;
+            outline: none;
+            background-color: #f2f2f2;
+            font-size: 18px;
+            border-radius: 25px;
+            padding: 0 20px;
+        }
+
+        .search-box button {
+            width: 40px;
+            height: 40px;
+            border: none;
+            outline: none;
+            background-color: #f2f2f2;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .search-box button:hover {
+            background-color: #e2e2e2;
+        }
+
+        .search-box button:active {
+            background-color: #d2d2d2;
+        }
+
+        .search-box button:focus {
+            outline: none;
+        }
+
+        .search-box button img {
+            width: 20px;
+            height: 20px;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <h1 class="text-center">Search Product</h1>
+
+    <div class="container">
+        <div class="search-box">
+            <form action="search.html" method="GET">
+                <input type="text" name="q" placeholder="Search Product">
+                <button type="submit">
+                    <img src="https://img.icons8.com/ios/50/000000/search--v1.png" alt="search">
+                </button> 
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
